@@ -25,7 +25,7 @@ scene.add(directionalLight);
 // Load .obj file
 const loader = new OBJLoader();
 loader.load(
-    '/building.obj',
+    'building.obj',
     function (object) {
         object.scale.set(0.04, 0.04, 0.04); // Scale down the object
         scene.background = new THREE.Color(0xffa500); // Set background to orange
