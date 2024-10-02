@@ -3,6 +3,10 @@
     "dev": "vite",
     "build": "vite build"
   },
+  "devDependencies": {
+    "vite": "^5.3.3",
+    "vite-plugin-restart": "^0.4.1"
+  },
   "dependencies": {
     "three": "^0.169.0",
     "vercel": "^37.6.0",
